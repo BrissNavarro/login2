@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    position: fixed;
+    top: 0;
+    left: 300px; /* Ancho del menú + espacio */
+    width: calc(80% - 300px); /* Ancho total menos el ancho del menú y el espacio */
+    background-color: #ffffff;
+    padding: 10px;
+    z-index: 1000;
+    text-align: center;
+}
+input[type="text"], input[type="datetime-local"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: royalblue;
+}
